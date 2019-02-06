@@ -1,0 +1,26 @@
+DEPENDENCIES
+  beats
+    git: git@github.com:RCollettSG/BeatsCookbook.git
+    revision: 338b05bafc766c9206dd48b2bb5e4ffcbe85e24c
+  node
+    git: git@github.com:RCollettSG/ChefNodeCookbook.git
+    revision: 5c9a1551ef45e8c49a9489623fcf042c60e279c0
+
+GRAPH
+  ark (4.0.0)
+    build-essential (>= 0.0.0)
+    seven_zip (>= 0.0.0)
+  beats (0.1.0)
+  build-essential (8.2.1)
+    mingw (>= 1.1)
+    seven_zip (>= 0.0.0)
+  mingw (2.1.0)
+    seven_zip (>= 0.0.0)
+  node (0.1.0)
+    nodejs (~> 5.0.0)
+  nodejs (5.0.0)
+    ark (>= 2.0.2)
+    build-essential (>= 0.0.0)
+  seven_zip (3.0.0)
+    windows (>= 0.0.0)
+  windows (5.1.3)
